@@ -11,11 +11,10 @@
 <body>
     <nav>
         <ul>
-            <li><a>Home</a></li>
-            <li><a>Projects</a></li>
-            <li><a>About</a></li>
-            <li><a>Skils</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <header>
@@ -27,7 +26,7 @@
             <img src="images/photomain.png"></img>
         </div>
         <div class="about">
-            <h2>About me</h2>
+            <h2 id="about">About me</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
             Duis vulputate commodo lectus, ac blandit elit tincidunt id.
@@ -40,22 +39,62 @@
             hendrerit. Vivamus varius pretium ligula, a aliquam odio 
             euismod sit amet. Quisque laoreet sem sit amet orci 
             ullamcorper at ultricies metus viverra. Pellentesque arcu 
-            mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+            mauris, malesuada quis ornare accumsan, blandit sed diam.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            Duis vulputate commodo lectus, ac blandit elit tincidunt id.
+            Sed rhoncus, tortor sed eleifend tristique, tortor mauris 
+            molestie elit, et lacinia ipsum quam nec dui. 
+            Quisque nec mauris sit amet elit iaculis pretium sit amet 
+            quis magna. Aenean velit odio, elementum in tempus ut, 
+            vehicula eu diam. Pellentesque rhoncus aliquam mattis. 
+            Ut vulputate eros sed felis sodales nec vulputate justo 
+            hendrerit. Vivamus varius pretium ligula, a aliquam odio 
+            euismod sit amet. Quisque laoreet sem sit amet orci 
+            ullamcorper at ultricies metus viverra. Pellentesque arcu 
+            mauris, malesuada quis ornare accumsan, blandit sed diam</p>
         </div>
         <div class="skils">
-            <h2>Skills</h2>
-                <div class="h-skils">
-                    <img src="images/1.png" alt="iconhtml"></img>
-                </div>
-                <div class="c-skils">
-                    <img src="images/css3.png" alt="iconcss"></img>
-                </div>
-                <div class="j-skils">
-                    <img src="images/js.png" alt="iconjs"></img>
-                </div>
+            <h2 id="skills">Skills</h2>
+            <hr>
             
-            
+                <img src="images/1.png" alt="iconhtml"></img>
+
+                <img src="images/css3.png" alt="iconhtml"></img>
+                
+                <img src="images/js.png" alt="iconhtml"></img>
+            <hr>    
+        </div>
+        <div>
+            <h2 id="contact">Contact</h2>
+            <form action="https://formspree.io/andiy892@gmail.com" method="POST" id="formid">
+        	    <form action="https://formspree.io/andiy892@gmail.com"
+      method="POST" name="test">
+      <p><b><label for="na">Name:</label></b><br>
+           <input id="na" type="text" size="40" required>
+      </p>
+       <p><b><label for="pr">Surname:</label></b><br>
+           <input id="pr" type="text" size="40" required>
+      </p>
+      <p><b><label for="em">E-mail:</label></b><br>
+           <input id="em" type="email" size="40" required>
+      </p>
+      <p><b>Message</b><br></p>
+       <textarea name="comment" cols="40" rows="3"></textarea></p>
+       <p><input type="submit" value="Send">
+          <input type="reset" value="Clear"></p>
+        	</form>
         </div>
     </article>
+    <footer>
+            <p>
+                <ul>
+                    <li>office@animation-for-business.com</li>
+                    <li>+38(067)-000-00-00</li>
+                    <li>www.facebook.com/animation</li>
+                    <li>www.animation-for-business.com</li>
+                </ul>
+            </p>    
+    </footer>
 </body>
 </html>

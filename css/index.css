@@ -7,7 +7,7 @@ html,body {
 	height: 100%;
 }
 body{
-	background: #f2f2f2;
+	background: #ECEFF1;
 	margin-top: 20px;
 }
 nav{
@@ -15,6 +15,7 @@ nav{
     margin-bottom: 30px;
     text-align: center;
     margin-top: 30px;
+    background-color: #ECEFF1;
 }
 
 nav li{
@@ -23,14 +24,16 @@ nav li{
 nav li a{
     text-decoration: none;
     padding: 0 20px;
-    font-size: 15px;
-    border: 4px;
+    font-size: 20px;
     float: left;
-   
+    text-shadow: 0 1px 0 white;
 }
+   
+
  
 header{
     margin-bottom: 30px;
+    background-color: #FF80AB;
 }
 
 header h1 {
@@ -47,24 +50,21 @@ header h2 {
 
 article{
     text-align: center;
+    background-color: #FCE4EC;
 }
 
 .skils{
     margin-top: 30px;
-   
 }
 
-.h-skils{
-   text-align: center;
-    margin-top: 30px;
+#formid{
+    background-color: #FF80AB;
+    border: 5px solid #E91E63;
+    text-align: left;
 }
 
-.c-skils{
-   text-align: center; 
-   margin-top: 30px;
-}
-
-.j-skils{
+footer{
     text-align: center;
-    margin-top: 30px;
+    background-color: #212121;
+    color: white;
 }
