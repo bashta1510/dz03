@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: #f2f2f2;
+	margin-top: 20px;
+}
+nav{
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 15px;
+    border: 4px;
+    float: left;
+   
+}
+ 
+header{
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+article{
+    text-align: center;
+}
+
+.skils{
+    margin-top: 30px;
+   
+}
+
+.h-skils{
+   text-align: center;
+    margin-top: 30px;
+}
+
+.c-skils{
+   text-align: center; 
+   margin-top: 30px;
+}
+
+.j-skils{
+    text-align: center;
+    margin-top: 30px;
+}
