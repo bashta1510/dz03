@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Portfolio</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>Andii Bashynskyi</h1>
-        <h2>frontend developer</h2>
-    </header>
-    <article>
-        <div class="main-img">
-            <img src="images/photomain.png"></img>
-        </div>
-        <div class="about">
-            <h2 id="about">About me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Andii Bashynskyi</h1>
+            <h2>frontend developer</h2>
+        </header>
+        <article>
+            <div class="main-img">
+                <img src="images/photomain.png" alt="icon">
+            </div>
+            <div class="about">
+                <h2 id="about">About me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
             Duis vulputate commodo lectus, ac blandit elit tincidunt id.
             Sed rhoncus, tortor sed eleifend tristique, tortor mauris 
@@ -52,48 +60,58 @@
             euismod sit amet. Quisque laoreet sem sit amet orci 
             ullamcorper at ultricies metus viverra. Pellentesque arcu 
             mauris, malesuada quis ornare accumsan, blandit sed diam</p>
-        </div>
-        <div class="skils">
-            <h2 id="skills">Skills</h2>
-            <hr>
-            
-                <img src="images/1.png" alt="iconhtml"></img>
-
-                <img src="images/css3.png" alt="iconhtml"></img>
-                
-                <img src="images/js.png" alt="iconhtml"></img>
-            <hr>    
-        </div>
-        <div>
-            <h2 id="contact">Contact</h2>
-            <form action="https://formspree.io/andiy892@gmail.com" method="POST" id="formid">
-        	    <form action="https://formspree.io/andiy892@gmail.com"
-      method="POST" name="test">
-      <p><b><label for="na">Name:</label></b><br>
-           <input id="na" type="text" size="40" required>
-      </p>
-       <p><b><label for="pr">Surname:</label></b><br>
-           <input id="pr" type="text" size="40" required>
-      </p>
-      <p><b><label for="em">E-mail:</label></b><br>
-           <input id="em" type="email" size="40" required>
-      </p>
-      <p><b>Message</b><br></p>
-       <textarea name="comment" cols="40" rows="3"></textarea></p>
-       <p><input type="submit" value="Send">
-          <input type="reset" value="Clear"></p>
-        	</form>
-        </div>
-    </article>
-    <footer>
-            <p>
-                <ul>
-                    <li>office@animation-for-business.com</li>
-                    <li>+38(067)-000-00-00</li>
-                    <li>www.facebook.com/animation</li>
-                    <li>www.animation-for-business.com</li>
-                </ul>
-            </p>    
-    </footer>
-</body>
+            </div>
+            <div class="skils">
+                <h2 id="skills">Skills</h2>
+                <hr>
+                <img src="images/1.png" alt="iconhtml">
+                <img src="images/css3.png" alt="iconhtml">
+                <img src="images/js.png" alt="iconhtml">
+                <hr>
+            </div>
+            <div>
+                <h2 id="contact">Contact</h2>
+                <form action="https://formspree.io/andiy892@gmail.com" method="POST" id="formid">
+                    <p>
+                        <b>
+                            <label for="na">Name:</label>
+                        </b>
+                        <br>
+                        <input id="na" type="text" size="40" required>
+                    </p>
+                    <p>
+                        <b>
+                            <label for="pr">Surname:</label>
+                        </b>
+                        <br>
+                        <input id="pr" type="text" size="40" required>
+                    </p>
+                    <p>
+                        <b>
+                            <label for="em">E-mail:</label>
+                        </b>
+                        <br>
+                        <input id="em" type="email" size="40" required>
+                    </p>
+                    <p>
+                        <b>Message</b>
+                        <br>
+                    </p>
+                    <textarea name="comment" cols="40" rows="3"></textarea>
+                    <p>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Clear">
+                    </p>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <ul>
+                <li>office@animation-for-business.com</li>
+                <li>+38(067)-000-00-00</li>
+                <li>www.facebook.com/animation</li>
+                <li>www.animation-for-business.com</li>
+            </ul>
+        </footer>
+    </body>
 </html>
